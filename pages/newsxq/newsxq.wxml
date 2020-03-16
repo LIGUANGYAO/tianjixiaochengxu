@@ -1,0 +1,36 @@
+<!--pages/anlixq/anlixq.wxml-->
+<import src="../../wxParse/wxParse.wxml"></import>
+
+<view class="anli-main">
+<view class="anli-box">
+  <view class="anli-h1">{{ detail.article_title }}</view>
+  <view class="anli-lx">
+    <view class="anli-time">发布时间：{{ detail.view_time }}</view>
+  </view>
+
+  <view class="anli-txtbox">
+  <view class="anli-txt1">
+    <template is="wxParse" data="{{wxParseData:content.nodes}}"></template>
+  </view>
+   </view>
+
+  <!-- 推荐阅读 -->
+  <view class="tjbox">
+    <view class="tj-h1">推荐阅读</view>
+    <view class="tj-x"></view>
+    <view class="tj-sbox" wx:for="{{tjdata}}" wx:for-item="item" catchtap="onTargetDetail" data-id="{{ item.article_id }}">
+      <view class="tj-left">
+        <view class="tj-txt">
+          {{item.article_title}}
+        </view>
+        <view class="tj-time">{{item.view_time}}</view>
+      </view>
+      <view class="tj-img">
+        <image src="{{item.image.file_path}}" mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+  
+
+</view>
+</view>

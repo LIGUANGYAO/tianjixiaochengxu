@@ -1,0 +1,74 @@
+<view class="big_view">
+
+<view class="about-img">
+<image src="/images/about.png" mode="widthFix"></image>
+</view>
+
+<view class="about-main">
+  <view class="about-h1">让商机触手可及</view>
+  <view class="about-txt">
+  <view>"天道酬勤，极致所能"秉承这样的奋斗理念，使得广州天极网络科技有限公司多年来成功运营并且能够在激烈的市场竞争中脱颖而出。
+     </view>
+     <view>
+广州天极网络科技有限公司成立于2006年，是一家为企业提供全方位电子商务解决方案的服务型公司，包含PC网站及移动互联网接入平台开发搭建、网络推广营销的产品、半托管运营服务、产品线上代运营分成合作、企业互联网+顾问等。经过15年发展，已经成功帮助华南地区5600多家内外贸的中小型企业，通过电子商务为企业开拓新的利润增长点。
+     </view>
+ </view>
+
+ <view class="hjbox">
+  <view class="hjsbox">
+    <image src="/images/about01.png" mode="widthFix"></image>
+    <view>公司前台</view>
+  </view>
+    <view class="hjsbox">
+    <image src="/images/about02.png" mode="widthFix"></image>
+    <view>业务营销部</view>
+  </view>
+    <view class="hjsbox">
+    <image src="/images/about03.png" mode="widthFix"></image>
+    <view>技术设计部</view>
+  </view>
+    <view class="hjsbox"> 
+    <image src="/images/about04.png" mode="widthFix"></image>
+    <view>会议室一角</view>
+  </view>
+ </view>
+
+  <view class="nfbox">
+  <image src="/images/nf.png" mode="widthFix"></image>
+    <view class="nfsbox">
+      <view class="nfh1">15年</view>
+      <view class="nftxt">15年互联网行业经验，专注为企业提供互联网+</view>
+    </view> 
+    <view class="nfsbox">
+      <view class="nfh1">5600+</view>
+      <view class="nftxt">华南地区5600+家企业选择我们的产品及方案</view>
+    </view> 
+    <view class="nfsbox">
+      <view class="nfh1">24小时</view>
+      <view class="nftxt"> 搭建1个在线永久群24小时为客户提供服务</view>
+    </view> 
+    <view class="nfsbox">
+      <view class="nfh1">360°</view>
+      <view class="nftxt">从洽谈到售后9大节点360度精细化支撑系统</view>
+    </view> 
+  </view>
+
+  <view class="hzbox">
+  <view class="hzh1">合作伙伴</view>
+  <image src="/images/hb.png" mode="widthFix"></image>
+  </view>
+
+
+
+</view>
+</view>
+
+  <view class="footer">
+    <view class="footer-box1">广州天极科技网络有限公司</view>
+    <view class="footer-box2">咨询电话 ： 4006-020-070</view>
+    <view class="footer-box3" bindtap="callphone">在线拨打</view>
+    <view class="footer-box4">地址：广州市天河区棠安路146号金豪商务大厦4043 </view>
+    <view class="footer-box5">©2006-2020 Tianji,Tech.All rights reserved.
+    <view>粤ICP06103879</view>
+    </view>
+  </view>

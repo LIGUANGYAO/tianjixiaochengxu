@@ -1,0 +1,62 @@
+/* common.wxss */
+/* @import "/utils/common.wxss"; */
+
+/* 文章组 */
+
+.diy-article {
+  background: #f0f3f8;
+  padding: 0 30rpx 30rpx;
+}
+
+.diy-article .article-item {
+  border-bottom: 1px solid #f0f3f8;
+  padding: 30rpx;
+  background: #fff;
+}
+.article-txt{font-size: 30rpx;color: #222222;display: -webkit-box;    
+    -webkit-box-orient: vertical;    
+    -webkit-line-clamp:2;    
+    overflow: hidden;
+    }
+.diy-article .article-item:last-child {
+  border-radius: 0 0 20rpx 20rpx;}
+
+.diy-article .article-item .article-item__image .image {
+  display: block;
+}
+
+/* 小图模式 */
+.article-item__image{height: 130rpx;max-height: 130rpx;overflow: hidden}
+.show-type__10 {
+  display: flex;
+  position: relative;
+}
+
+.show-type__10 .article-item__left {
+  padding-left: 20rpx;
+  position: relative
+}
+
+.show-type__10 .article-item__title {
+  padding: 0 0 26rpx;
+
+}
+
+.show-type__10 .article-item__image .image {
+  width: 187rpx;
+}
+
+/* 大图模式 */
+
+.show-type__20 .article-item__image .image {
+  width: 100%;
+}
+
+
+.al_box{width: 100%;overflow: hidden;position: absolute;bottom: 0;padding-right: 30rpx;}
+.al_fenlei{font-size: 24rpx;color: #fe9518;float: left;}
+.al_time{font-size: 22rpx;color: #999999;float: right;}
+
+.article-top{width:100%;padding: 30rpx;border-radius: 20rpx 20rpx 0 0;box-sizing: border-box;overflow: hidden;margin: 0 auto;background: #fff;line-height:30rpx;}
+.article-top .article-h1{font-size: 30rpx;color: #323232;float: left}
+.article-more{float: right;font-size: 24rpx;color: #4e4e4e}

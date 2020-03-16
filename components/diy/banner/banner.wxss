@@ -1,0 +1,51 @@
+/* banner轮播 */
+.top-bac{width: 100%;padding: 30rpx 24rpx}
+.header{overflow: hidden;width: 100%;height: 44rpx;margin-bottom: 24rpx;}
+.header .rx_top{line-height: 44rpx;float: right;font-size: 20rpx;color: #ff6e17;}
+.diy-banner {
+  position: relative;
+  margin: 30rpx 30rpx 0;
+  background: #fff;
+  border-radius: 20rpx;
+}
+
+
+.diy-banner .slide-image {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* 顶部置灰 */
+
+.diy-banner .linear {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3.4rem;
+  background: linear-gradient(#ccc, transparent);
+  opacity: 0.6;
+  z-index: 9;
+}
+
+.swiper-box .wx-swiper-dots.wx-swiper-dots-horizontal {
+  margin-bottom: 2rpx;
+}
+
+/* banner组件按钮 */
+
+.swiper-box .wx-swiper-dot {
+  height: 20rpx;
+  width: 20rpx;
+}
+
+.swiper-box.dot-rectangle .wx-swiper-dot {
+  width: 30rpx;
+  border-radius: unset;
+}
+
+.swiper-box.dot-square .wx-swiper-dot {
+  border-radius: unset;
+}

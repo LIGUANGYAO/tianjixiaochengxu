@@ -1,0 +1,36 @@
+
+<view class="big_view">
+
+<view class="about-img">
+<image src="/images/lximg.png" mode="widthFix"></image>
+</view>
+
+<view class="lx-main">
+  <view class="lx-h1">广州天极网络科技有限公司</view>
+  <view class="lx-box">
+    <view><image src="/images/lx01.png" mode="widthFix"></image>全国免费服务热线：4006-020-070</view>
+    <view><image src="/images/lx01.png" mode="widthFix"></image>电话：020-22925118 22925119［共30线］</view>
+    <view><image src="/images/lx02.png" mode="widthFix"></image>邮箱：tianji@we-ok.net</view>
+    <view><image src="/images/lx03.png" mode="widthFix"></image>手机：18929579937</view>
+    <view><image src="/images/lx04.png" mode="widthFix"></image>广州市天河区棠安路146号金豪商务大厦4043</view>
+  </view>
+  
+  <view class="map">
+  <!-- <map longitude='113.383392' latitude='23.135395' markers='{{markers}}' scale='13'></map> -->
+  <image src="/images/map.png" mode="widthFix"></image>
+  </view>
+</view>
+
+</view>
+
+  <view class="footer">
+    <view class="footer-box1">广州天极科技网络有限公司</view>
+    <view class="footer-box2">咨询电话 : 4006-020-070</view>
+    <view class="footer-box3" bindtap="callphone">在线拨打</view>
+    <view class="footer-box4">地址：广州市天河区棠安路146号金豪商务大厦4043 </view>
+    <view class="footer-box5">©2006-2020 Tianji,Tech.All rights reserved.
+    <view>粤ICP06103879</view>
+    </view>
+  </view>
+
+  

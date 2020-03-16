@@ -1,0 +1,41 @@
+<view class="fenlei-main">
+  <view class="fenlei-box">
+
+
+
+  <!-- 分类1 -->
+  <view class="fenlei-sbox" >
+      <!-- 分类标题 -->
+      <view class="fenlei-h1">
+        <view class="fenlei-x"></view><view class="h1-name">{{arr.params.auto.categoryname}}</view>
+      </view>
+      <view class="fenlei-cbox">
+      <!-- 1 -->
+        <view class="fenlei-cp" wx:for="{{arr.list}}" wx:for-item="item" bindtap="goshop"  data-id="{{item.goods_id}}">
+          <view class="cp-img" >
+            <image src="{{item.image}}" mode="widthFix"></image>
+          </view>
+
+         <view class="cp-bt">
+            <view class="cp-name">
+              {{item.goods_name}}
+            </view>
+            <view class="cp-price">
+              <view class="price-left">
+                ¥{{item.goods_price}}
+              </view>
+              <view class="price-right">
+                ¥{{item.line_price}}
+              </view>
+            </view>
+        </view>
+          
+        </view>
+
+
+      </view>
+      
+  </view>
+  </view>
+</view>
+

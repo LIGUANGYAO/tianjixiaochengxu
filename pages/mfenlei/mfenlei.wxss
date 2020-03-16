@@ -1,0 +1,46 @@
+/* pages/mfenlei/mfenlei.wxss */
+/* 搜索框 */
+.index-search-box {
+  padding:20rpx;
+}
+
+.index-search {
+  border-bottom: 0;
+  background: #fff;
+  border-radius: 50rpx;
+  overflow: hidden;
+  position: relative;
+  font-size: 28rpx;
+  color: #999;
+  box-sizing: border-box;
+  height: 64rpx;
+  line-height: 64rpx;
+}
+view{box-sizing:border-box;}
+
+.fenlei-main{width:100%;background: #f0f3f8;padding: 30rpx;}
+.fenlei-box{width:100%;background: #fff;border-radius: 20rpx;}
+.fenlei-sbox{width: 100%;overflow: hidden;border-bottom: 30rpx solid #f0f3f8;padding: 20rpx;}
+.fenlei-h1{width: 100%;border-bottom: 1px solid #f0f3f8;overflow: hidden;padding-bottom: 10rpx;}
+.fenlei-h1 .fenlei-x{width: 7rpx;height: 30rpx;background:linear-gradient(to right,#ffa72b,#ff7c32);float: left;margin-right: 10rpx;transform: translateY(8rpx)}
+.fenlei-h1 .h1-name{font-size: 32rpx;color: #222222;}
+
+.fenlei-cbox {width: 100%;overflow: hidden}
+.fenlei-cp{width: 48.5%;float: left;margin-right: 3%;}
+.fenlei-cbox .fenlei-cp:nth-of-type(even){margin-right: 0}
+.fenlei-cp image{width: 100%;}
+.fenlei-cp .cp-name{font-size:28rpx;line-height: 40rpx;display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+overflow: hidden;}
+.cp-bt{width: 100%;padding:20rpx;}
+.cp-price{width: 100%;overflow: hidden;line-height: 40rpx;}
+.price-left{float: left;font-size: 26rpx;color: #f4373b;margin-right: 12rpx;}
+.price-right{float: left;text-decoration: line-through;color: #999999;font-size: 22rpx;}
+.fenlei_more{width: 240rpx;height: 60rpx;margin: 40rpx auto 20rpx;color: #fff;background:linear-gradient(to right,#ffa72b,#ff7733);border-radius: 20rpx;font-size: 24rpx;text-align: center;line-height: 60rpx;}
+.navto_box{width: 100%;font-size: 32rpx;color: #0d0d0d;text-align: center;overflow: hidden}
+.navto_h1{width: 100%;height: 88rpx;line-height: 88rpx;margin:0 0 30rpx;background: #fff;font-size: 32rpx;color: #0d0d0d}
+.navto_list{width: 100%;overflow: hidden;}
+.navto_list .navto_s{width: 48%;height: 88rpx;line-height: 88rpx;float: left;background: #fff;margin-bottom: 30rpx;margin-right: 4%;font-size: 30rpx;color: #0d0d0d}
+.navto_list .navto_s:nth-of-type(even){margin-right: 0}
+

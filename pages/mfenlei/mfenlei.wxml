@@ -1,0 +1,72 @@
+<view class="fenlei-main">
+  <view class="fenlei-box">
+
+
+     <view class="index-search-box">
+    <navigator class="index-search" hover-class="none" openType="navigate" url="../search/index">
+      <view class="index-cont-search t-l">
+        <icon class="text-center" color="{{searchColor}}" size="{{searchSize}}" type="search"></icon>
+        <text>{{searchName}}</text>
+      </view>
+    </navigator>
+  </view>
+
+  <!-- 分类1 -->
+  
+  <view class="fenlei-sbox"wx:for="{{arr}}" wx:key="this" wx:for-item="item" >
+      <!-- 分类标题 -->
+      <view class="fenlei-h1">
+        <view class="fenlei-x"></view><view class="h1-name">{{item.params.category_name}}</view>
+      </view>
+      <view class="fenlei-cbox">
+         <view class="fenlei-cp" bindtap="goshop" wx:for="{{ item.list }}" data-id="{{item.goods_id}}">
+          <view class="cp-img" >
+            <image src="{{item.image}}" mode="widthFix"></image>
+          </view>
+          <view class="cp-bt">
+            <view class="cp-name">
+              {{item.goods_name}}
+            </view>
+            <view class="cp-price">
+              <view class="price-left">
+                ¥{{item.goods_price}}
+              </view>
+              <view class="price-right">
+                ¥{{item.line_price}}
+              </view>
+            </view>
+        </view>
+
+        </view>
+
+      </view>
+      <view class="fenlei_more" bindtap="flmore" data-cid='{{item.params.auto.categoryid}}'>查看更多</view>
+  </view>
+  </view>
+
+    <!-- 导航中心 -->
+    <view class="navto_box">
+      <view class="navto_h1">
+        导航中心
+      </view>
+      <view class="navto_list">
+        <navigator class="navto_s" url="/pages/allist/allist?article_lx=10001">
+          案例大全 >>
+        </navigator>
+        <navigator class="navto_s" url="/pages/allist/allist?article_lx=10002">
+          新闻中心 >>
+        </navigator>
+        <navigator class="navto_s" url="/pages/about/about">
+         天极科技 >>
+        </navigator>
+        <navigator class="navto_s" url="/pages/lianxi/lianxi" >
+         联系我们 >>
+        </navigator>
+        <navigator class="navto_s" bindtap="toliuyan">
+          留言中心 >>
+        </navigator>
+      </view>
+    </view>
+
+</view>
+

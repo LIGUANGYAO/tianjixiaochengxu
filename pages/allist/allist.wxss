@@ -1,0 +1,19 @@
+/* pages/allist/allist.wxss */
+view{box-sizing: border-box;}
+.tj-main{width: 100%;background: #f0f3f8;padding: 30rpx;}
+.tjbox{width: 100%;background: #fff;border-radius: 20rpx;}
+.tj-h1{font-size: 36rpx;color: #1b1b1b;padding:50rpx 0 12rpx;}
+.tj-x{width: 45rpx;height: 5rpx;background: #ff843c;border-radius: 10rpx;}
+.tj-sbox{width: 100%;overflow: hidden;padding:30rpx 24rpx;border-bottom: 1px solid #f0f3f8;box-sizing: border-box;}
+.tj-sbox .tj-left{width: 420rpx;float: left;height: 130rpx;}
+.tj-sbox .tj-img{width: 182rpx;max-height: 130rpx;float: right;overflow: hidden}
+.tj-img image{width: 100%;}
+.tj-txt{font-size: 30rpx;color: #222222;line-height: 36rpx;margin-bottom:30rpx;}
+.tj-dbbox{width: 100%;overflow: hidden}
+.tj-al{font-size: 24rpx;
+color: #fe9518;
+float:right;}
+.tj-time{font-size:22rpx;color: #999999;float: left}
+.article-top{width:100%;padding: 30rpx;border-radius: 20rpx 20rpx 0 0;box-sizing: border-box;overflow: hidden;margin: 0 auto;background: #fff;border-bottom: 1px solid #f0f3f8;}
+.article-top .article-h1{font-size: 30rpx;color: #323232;float: left}
+

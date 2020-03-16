@@ -1,0 +1,20 @@
+<!--pages/liuyan/liuyan.wxml-->
+<view class="ly-main">
+  <view class="ly-box">
+    <view class="ly-h1">填写你的联系方式，我们会主动与你联系</view>
+    <view class="ly-input" bindtap="thisinput"><image src="/images/ly01.png"  mode="widthFix"></image><input type="text" placeholder="您的称呼" placeholder-style="font-size:27rpx;color:#cccccc" value="{{name}}" bindinput="getname"></input></view>
+    <view class="ly-input" bindtap="thisinput"><image src="/images/ly02.png"  mode="widthFix"></image><input type="text" placeholder="联系电话（必填）" placeholder-style="font-size:27rpx;color:#cccccc" value="{{tel}}" bindinput="getphone"></input></view>
+    <view class="ly-input" bindtap="thisinput"><image src="/images/ly03.png"  mode="widthFix"></image>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" >
+    <view class="picker" style="color:{{pick}}"> 
+      意向产品（选填）{{array[index]}}
+    </view>
+  </picker>
+    </view>
+    <view class="ly-input" bindtap="thisinput"><image src="/images/ly04.png"  mode="widthFix"></image><input type="text" placeholder="公司名称（选填）" placeholder-style="font-size:27rpx;color:#cccccc" value="{{mc}}" bindinput="getmc"></input></view>
+    <view class="ly-input" bindtap="thisinput"><image src="/images/ly05.png"  mode="widthFix"></image><input type="text" placeholder="参考网站（选填）" placeholder-style="font-size:27rpx;color:#cccccc" value="{{ck}}" bindinput="getck"></input></view>
+  <textarea bindtap="thisinput" class="textarea" placeholder="情况说明(选填)" placeholder-style="font-size:27rpx;color:#cccccc" value="{{txt}}" bindinput="gettxt"></textarea>
+     <button class="sub" bindtap="sub">提交留言</button>
+  </view>
+
+</view>

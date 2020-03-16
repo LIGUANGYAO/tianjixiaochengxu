@@ -1,0 +1,17 @@
+/* pages/lianxi/lianxi.wxss */
+.big_view{width: 100%;padding: 28rpx;background: #f0f3f8;}
+view{box-sizing: border-box}
+.about-img{width: 100%;}
+.about-img image{width: 100%}
+.lx-main{width: 100%;padding:55rpx 40rpx 45rpx;background: #fff;border-radius: 20rpx;margin-top: 26rpx;}
+.lx-main .lx-h1{font-size: 32rpx;color: #000000;margin-bottom: 45rpx;}
+.lx-box{width: 100%;}
+.lx-box view image{width: 36rpx;position: absolute;left: 0;top: 50%;transform: translateY(-50%)}
+.lx-box view{font-size: 24rpx;color: #5b5b5b;position: relative;padding-left: 56rpx;margin-bottom: 30rpx;}
+.map image{width: 100%}
+.footer{width:100;background: #1d1d1d;padding: 40rpx 50rpx;text-align: center}
+.footer .footer-box1{font-size:28rpx;margin-bottom: 20rpx;color: #fff}
+.footer .footer-box2{font-size:28rpx;margin-bottom: 24rpx;color: #fff}
+.footer .footer-box3{width: 187rpx;height: 56rpx;text-align: center;margin: 0 auto;font-size: 28rpx;line-height: 56rpx;color: #898989;border:1px solid #5b5b5b;border-radius: 5rpx;}
+.footer .footer-box4{font-size: 28rpx;color: #828282;margin-top: 40rpx;}
+.footer .footer-box5{font-size: 28rpx;color: #828282;margin-top: 20rpx;line-height: 40rpx;}

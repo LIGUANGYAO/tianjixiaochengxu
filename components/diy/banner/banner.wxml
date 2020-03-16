@@ -1,0 +1,22 @@
+<!-- banner轮播 -->
+
+
+
+<view class="diy-banner">
+<view class="top-bac">
+  <view class="header">
+  <image src="/images/22logo.png" style="width:224rpx;height:40rpx"></image>
+<view class="rx_top">服务热线: 4006-020-070</view>
+</view>
+
+  <swiper autoplay="{{ autoplay }}" class="banner-box swiper-box dot-{{ itemStyle.btnShape }}" duration="{{ duration }}" circular="{{ true }}" indicator-dots="{{ indicatorDots }}" interval="{{ params.interval }}" indicator-color="{{ itemStyle.btnColor }}" indicator-active-color="#000"
+    bindchange="_bindChange" data-item-key="{{ itemIndex }}" style="height: {{ imgHeights[imgCurrent] }}rpx">
+    <swiper-item wx:for-item="banner" wx:for="{{dataList}}" wx:key="this">
+      <image mode="widthFix" catchtap="navigationTo" data-url="{{ banner.linkUrl }}" class="slide-image" bindload="_imagesHeight" src="{{banner.imgUrl}}" data-id="{{index}}" data-item-key="{{ itemIndex }}"></image>
+    </swiper-item>
+  </swiper>
+
+  <!-- 顶部置灰 -->
+  <!-- <view class="linear"></view>  -->
+  </view>
+</view>

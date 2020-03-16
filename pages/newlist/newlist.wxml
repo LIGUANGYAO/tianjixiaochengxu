@@ -1,0 +1,61 @@
+<!--pages/newlist/newlist.wxml-->
+<!--pages/allist/allist.wxml-->
+  <view class="tj-main">
+  <view class="tjbox">
+    <view class="article-top">
+      <view class="article-h1">新闻中心</view>
+    </view>
+    <!-- 1 -->
+    <navigator class="tj-sbox">
+      <view class="tj-left">
+        <view class="tj-txt">
+          快速突破一天200瓶销售，他们是怎样实现快速裂变...
+        </view>
+        <view class="tj-time">2020-03-11</view>
+      </view>
+      <view class="tj-img">
+        <image src="/images/about01.png" mode="widthFix"></image>
+      </view>
+    </navigator>
+
+    <!-- 2 -->
+    <navigator class="tj-sbox">
+      <view class="tj-left">
+        <view class="tj-txt">
+          快速突破一天200瓶销售，他们是怎样实现快速裂变...
+        </view>
+        <view class="tj-time">2020-03-11</view>
+      </view>
+      <view class="tj-img">
+        <image src="/images/about01.png" mode="widthFix"></image>
+      </view>
+    </navigator>
+
+    <!-- 3 -->
+    <navigator class="tj-sbox">
+      <view class="tj-left">
+        <view class="tj-txt">
+          快速突破一天200瓶销售，他们是怎样实现快速裂变...
+        </view>
+        <view class="tj-time">2020-03-11</view>
+      </view>
+      <view class="tj-img">
+        <image src="/images/about01.png" mode="widthFix"></image>
+      </view>
+    </navigator>
+
+    <!-- 4 -->
+    <navigator class="tj-sbox">
+      <view class="tj-left">
+        <view class="tj-txt">
+          快速突破一天200瓶销售，他们是怎样实现快速裂变...
+        </view>
+        <view class="tj-time">2020-03-11</view>
+      </view>
+      <view class="tj-img">
+        <image src="/images/about01.png" mode="widthFix"></image>
+      </view>
+    </navigator>
+
+  </view>
+</view>

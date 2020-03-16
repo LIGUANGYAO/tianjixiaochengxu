@@ -1,0 +1,57 @@
+<view class="container">
+
+  <!-- DIY组件 -->
+  <diy-component diyItems="{{ items }}"></diy-component>
+
+  <!-- 底线 -->
+  <!-- <view class="title-footer p-r">
+    <text class="f-24 col-9 cont">我是有底线的</text>
+    <view class="hr"></view>
+  </view> -->
+  <view class="ts-main">
+  <view class="ts-box">
+    <view class="ts-img">
+      <image src="/images/tj.png" mode="widthFix"></image>
+    </view>
+    <view class="ts-txt">
+      广州天极网络科技有限公司成立于2006年，专注为企业提供全方位互联网+的服务型公司，帮助企业开拓新的渠道及营销方式，赋能企业的线上经营模式......
+    </view>
+    <view class="nfbox">
+  <image src="/images/nf.png" mode="widthFix"></image>
+    <view class="nfsbox">
+      <view class="nfh1">15年</view>
+      <view class="nftxt">15年互联网行业经验，专注为企业提供互联网+</view>
+    </view> 
+    <view class="nfsbox">
+      <view class="nfh1">5600+</view>
+      <view class="nftxt">华南地区5600+家企业选择我们的产品及方案</view>
+    </view> 
+    <view class="nfsbox">
+      <view class="nfh1">24小时</view>
+      <view class="nftxt"> 搭建1个在线永久群24小时为客户提供服务</view>
+    </view> 
+    <view class="nfsbox">
+      <view class="nfh1">360°</view>
+      <view class="nftxt">从洽谈到售后9大节点360度精细化支撑系统</view>
+    </view> 
+  </view>
+
+  </view>
+</view>
+
+<diy-article params="{{ k }}" dataList="{{ i }}"></diy-article>
+
+
+
+</view>
+
+  <!-- 底部 -->
+  <view class="footer">
+    <view class="footer-box1">广州天极科技网络有限公司</view>
+    <view class="footer-box2">咨询电话 : 4006-020-070</view>
+    <view class="footer-box3" bindtap="callphone">在线拨打</view>
+    <view class="footer-box4">地址：广州市天河区棠安路146号金豪商务大厦4043 </view>
+    <view class="footer-box5">©2006-2020 Tianji,Tech.All rights reserved.
+    <view>粤ICP06103879</view>
+    </view>
+  </view>

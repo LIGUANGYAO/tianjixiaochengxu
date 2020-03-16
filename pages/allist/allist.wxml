@@ -1,0 +1,28 @@
+<!--pages/allist/allist.wxml-->
+  <view class="tj-main">
+  <view class="tjbox" >
+    <view class="article-top">
+      <view class="article-h1">{{stitle}}</view>
+    </view>
+    <!-- 1 -->
+    <block wx:for="{{allist}}" wx:for-item="item" wx:for-index="index">
+    <view class="tj-sbox" catchtap="onTargetDetail" data-id="{{ item.article_id }}" data-lx="{{item.category.category_id}}" data-index="{{index}}">
+      <view class="tj-left">
+        <view class="tj-txt">
+          {{item.article_title}}
+        </view>
+
+        <view class="tj-dbbox">
+         <view class="tj-time">{{item.view_time}}</view>
+         <view class="tj-al" wx:if="{{item.article_subtitle}}">{{item.article_subtitle}}</view>
+        </view>
+        
+      </view>
+      <view class="tj-img">
+        <image src="{{item.image.file_path}}" mode="widthFix"></image>
+      </view>
+    </view>
+ </block>
+
+  </view>
+</view>

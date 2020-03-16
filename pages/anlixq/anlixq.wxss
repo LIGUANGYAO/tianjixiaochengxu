@@ -1,0 +1,23 @@
+/* pages/anlixq/anlixq.wxss */
+view{box-sizing: border-box}
+.anli-main{width: 100%;background: #f0f3f8;padding: 30rpx}
+.anli-main .anli-box{width:100%;padding: 50rpx 30rpx;background: #fff;border-radius: 20rpx;}
+.anli-h1{font-size: 36rpx;color: #1b1b1b;line-height: 50rpx;margin-bottom: 20rpx;}
+.anli-lx{width: 100%;overflow: hidden;margin: 20rpx 0 30rpx;}
+.anli-lx .anli-txt{float: left;font-size: 22rpx;color: #333333}
+.anli-txt text{font-size: 22rpx;color: #ff843c;}
+.anli-time{float: right;font-size:22rpx;color: #666666;}
+.anli-bt{width: 100%;overflow: hidden;border-bottom: 1px solid #f0f3f8}
+.anli-bt view{font-size: 24rpx;color: #333333;border-bottom:4rpx solid #ff8e2f;width: 100rpx;padding-bottom: 12rpx;}
+.anli-txtbox{width: 100%;margin-top: 20rpx;}
+.anli-txt1{font-size: 24rpx;color: #616161;line-height: 40rpx;
+margin-bottom: 50rpx;
+}
+.anli-txtbox image{width: 100%;margin: 20rpx 0;}
+
+.anli-bot{width: 100%;overflow: hidden;padding: 22rpx;border-top: 1px solid #f1f4f6}
+.anli-bot view{font-size: 22rpx;color: #b1b1b1;overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;}
+.anli-left{width: 50%;float: left}
+.anli-right{width: 50%;float: right}

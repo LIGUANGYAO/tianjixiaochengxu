@@ -1,0 +1,26 @@
+/* wxParse.wxss */
+@import "/wxParse/wxParse.wxss";
+
+page {
+  background:#f0f3f8;
+  padding: 28rpx;
+
+}
+
+.container {
+  padding: 30rpx;
+}
+
+.wxParse-img {
+  width: 706rpx;
+}
+.xq-main{border-radius: 20rpx}
+.article-title{font-size: 36rpx;color: #1b1b1b;font-weight: bolder;line-height: 50rpx;border-bottom:1px solid #f0f3f8}
+.article-views{font-size: 22rpx;color: #666666}
+.xq-txt{width: 100%;line-height: 40rpx;padding-bottom: 55rpx;}
+.news-img{width: 100%;margin-top: 30rpx;}
+.news-img image{width: 100%}
+
+
+
+
