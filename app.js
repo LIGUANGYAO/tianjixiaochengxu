@@ -4,6 +4,7 @@
  */
  /**
 	git测试分支合并
+	测试合并2
  */
 const tabBarLinks = [
   'pages/index/index',
