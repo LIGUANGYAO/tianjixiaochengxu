@@ -2,9 +2,6 @@
  * tabBar页面路径列表 (用于链接跳转时判断)
  * tabBarLinks为常量, 无需修改
  */
- /**
-	测试测试
- */
 const tabBarLinks = [
   'pages/index/index',
   'pages/category/index',
